@@ -92,4 +92,10 @@
     gap: 20px
 }
 
+@media (max-width: 700px) {
+    .lists{
+        flex-direction: column;
+    }
+}
+
 </style>

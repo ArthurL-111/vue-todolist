@@ -23,7 +23,7 @@
 <style scoped>
     .list-wrap{
         border: 1px solid black;
-        width: 400px;
+        width: 40vw;
         height: 500px;
         overflow: scroll;
     }
@@ -34,4 +34,10 @@
         flex-direction: column;
         gap: 5px;
     }
+
+    @media (max-width: 700px) {
+    .list-wrap{
+        width: 90vw;
+    }
+}
 </style>
